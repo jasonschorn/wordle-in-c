@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.0)
-project(CWordle C)
+project(wordle-in-c C)
 set(CMAKE_C_STANDARD 17)
 #
 # --> Get Raylib
@@ -14,7 +14,7 @@ FetchContent_MakeAvailable(raylib)
 #
 # --> Files for executable
 #
-add_executable(CWordle
+add_executable(wordle-in-c
         main.c
         src/display_manager.c
         src/collision_manager.c
